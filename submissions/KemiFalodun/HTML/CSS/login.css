@@ -11,8 +11,8 @@
 
     margin: 50px auto;
     background-color:#1883ad;
-    width: 400px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     border: 1px solid #3f3f3f;
     border-radius: 5px;
 
@@ -26,4 +26,40 @@
     display: block;
     margin: auto;
     text-align: center;
+}
+
+.page-text{
+    margin: 10px;
+    padding: 15px;
+}
+
+input[type=text], [type=password], [type=login] {
+
+    width: 100%;
+    display: inline-block;
+    margin: 5px 0;
+    height: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f11abc;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.login{
+
+    display: block;
+    width: 85%;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 1px solid #3f3f3f;
+    border-radius: 5px;
+    text-align: center;
+    margin: 15px
+}
+
+.page-link{
+    color: #f11abc;
+    text-decoration: none;
 }
